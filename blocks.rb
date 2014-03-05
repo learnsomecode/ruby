@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 [1, 2, 3].each do |thing|
 	puts thing
 end

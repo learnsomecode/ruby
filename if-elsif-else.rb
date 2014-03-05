@@ -1,13 +1,13 @@
+#!/usr/bin/env ruby
+
 if 5 > 3
-puts "true"
-
+  puts "5 > 3"
 elsif
-puts "false"
-
+  puts "5 < 3?"
 else
-puts "what the hell"
-
+  puts "this will print if 5 !< 3 & 5 !> 3"
 end
 
-unless 5 < 13
-puts "wha"
+unless 5 > 13
+	puts "since 5 isn't less than 13 this is printed"
+end
